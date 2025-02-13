@@ -27,12 +27,11 @@ FileOutputStream filename=new FileOutputStream("employee.txt");
         }
         try{
 
-            //Creating stream to read the object
             ObjectInputStream in=new ObjectInputStream(new FileInputStream("employee.txt"));
             Employee s=(Employee)in.readObject();
-            //printing the data of the serialized object
+       
             System.out.println(s.Eno+s.email+s.Ename);
-            //closing the stream
+   
             in.close();
         }catch(Exception e){System.out.println(e);}
     }}
