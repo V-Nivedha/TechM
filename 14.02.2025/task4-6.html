@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Alert, Confirmation, and Prompt Example</title>
+  <style>
+   
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d9dbdc;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #4a90e2;
+      margin-bottom: 30px;
+    }
+
+ 
+    button {
+      background-color: #4a90e2; 
+      color: white;
+      border: none;
+      padding: 15px 25px;
+      font-size: 16px;
+      margin: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #357abd;
+    }
+
+    button:active {
+      background-color: #276a94;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>User Interaction Example</h1>
+  <button onclick="showAddress()">Enter Address</button>
+  <button onclick="checkFilmPlan()">Go to Film</button>
+  <button onclick="getAge()">Enter Age</button>
+
+  <script>
+ 
+    function showAddress() {
+      let userAddress = prompt("Please enter your address:");
+      if (userAddress !== null && userAddress !== "") {
+        alert("Your address is: " + userAddress);
+      }
+    }
+
+   
+    function checkFilmPlan() {
+      let willGoToFilm = confirm("Will you go to the film today?");
+      if (willGoToFilm) {
+        alert("You will go to the film today!");
+      } else {
+        alert("You won't go to the film today.");
+      }
+    }
+
+   
+    function getAge() {
+      let userAge = prompt("Please enter your age:");
+      if (userAge !== null && userAge !== "") {
+        alert("Your age is: " + userAge);
+      }
+    }
+  </script>
+
+</body>
+</html>
