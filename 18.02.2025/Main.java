@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class Main {
-    static final String URL = "jdbc:mysql://localhost:3306/testdb";
+    static final String URL = "jdbc:mysql://localhost:3306/database2";
     static final String USER = "root";
     static final String PASSWORD = "090204";
 
