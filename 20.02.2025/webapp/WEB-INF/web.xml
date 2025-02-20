@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>ServletEx</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+     <welcome-file>f1.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  
+ <servlet-name>Validation</servlet-name>
+ <servlet-class>servletpack.Validation</servlet-class>
+ </servlet>
+ <servlet>
+ <servlet-name>WelcomeUser</servlet-name>
+ <servlet-class>servletpack.WelcomeUser</servlet-class>
+ </servlet>
+
+<servlet-mapping>
+ <servlet-name>Validation</servlet-name>
+ <url-pattern>/servletpack.Validation</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+ <servlet-name>WelcomeUser</servlet-name>
+ <url-pattern>/servletpack.welcome</url-pattern>
+ </servlet-mapping>
+ 
+<servlet>
+    <servlet-name>InitParamExample</servlet-name>
+    <servlet-class>servletpack.InitParamExample</servlet-class>
+
+    <init-param>
+        <param-name>address</param-name>
+        <param-value>Chennai</param-value>
+    </init-param>
+    <init-param>
+        <param-name>email</param-name>
+        <param-value>abcd@gmail.com</param-value>
+    </init-param>
+    <init-param>
+        <param-name>phone</param-name>
+        <param-value>9384564715</param-value>
+    </init-param>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>InitParamExample</servlet-name>
+    <url-pattern>/InitParamExample</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <context-param>
+        <param-name> n1 </param-name>
+        <param-value> ABCD </param-value>
+    </context-param>
+<context-param>
+        <param-name> n2  </param-name>
+        <param-value> 788 </param-value>
+    </context-param>
+
+<servlet>
+        <servlet-name>OnServletContext</servlet-name>
+        <servlet-class>servletpack.OnServletContext</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+            <servlet-name>OnServletContext</servlet-name>
+            <url-pattern>/onContext</url-pattern>
+    </servlet-mapping>
+
+   <welcome-file-list>  
+        <welcome-file>first.html</welcome-file>  
+   </welcome-file-list>
+   
+   
+   <servlet>
+        <servlet-name>Validate</servlet-name>
+        <servlet-class>servletpack.Validate</servlet-class>
+    </servlet>
+<servlet>
+        <servlet-name>Welcome</servlet-name>
+        <servlet-class>servletpack.Welcome</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+        <servlet-name>Validate</servlet-name>
+        <url-pattern>/servletpack.Validate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Welcome</servlet-name>
+        <url-pattern>/servletpack.Welcome</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <servlet-class>servletpack.WelcomeServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>WelcomeServlet</servlet-name>
+    <url-pattern>/servletpack.WelcomeServlet</url-pattern>
+  </servlet-mapping>
+
+  <filter>
+    <filter-name>MyFilter</filter-name>  
+    <filter-class>servletpack.MyFilter</filter-class> 
+    <init-param>
+      <param-name>appUser</param-name>
+      <param-value>jai</param-value>
+    </init-param> 
+  </filter>  
+
+  <filter-mapping>  
+    <filter-name>MyFilter</filter-name>  
+    <url-pattern>/servletpack.WelcomeServlet</url-pattern>  
+  </filter-mapping>
+    
+</web-app>
