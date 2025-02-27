@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudentsList</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div> 
+    <script type ="text/jsx">
+        function Student(props) {
+            return <li>{props.name} - {props.department}</li>;
+          }
+    
+          function StudentList() {
+            const students = [
+              { id: 1, name: 'Abc', department: 'ECE' },
+              { id: 2, name: 'Def', department: 'IT' },
+              { id: 3, name: 'Ghi', department: 'ADS' },
+              { id: 4, name: 'Jkl', department: 'EEE' },
+            ];
+    
+            return (
+              <>
+                <h1>Student List:</h1>
+                <ul>
+                  {students.map((student) => (
+                    <Student key={student.id} name={student.name} department={student.department} />
+                  ))}
+                </ul>
+              </>
+            );
+          }
+    
+          const root = ReactDOM.createRoot(document.getElementById('root'));
+          root.render(<StudentList />);
+    </script> 
+  </body>
+</html>

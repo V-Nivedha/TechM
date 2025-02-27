@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Government Offer Eligibility</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      function EligibilityCheck(props) {
+        const hasAadhar = props.aadhar;
+        const hasPan = props.pan;
+
+        return (
+          <div>
+            <h1>Government Offer Eligibility</h1>
+
+            {/* Eligibility Check using Logical OR (||) */}
+            {hasAadhar || hasPan ? (
+              <h2>You are eligible for the government offer!</h2>
+            ) : (
+              <h2> You are NOT eligible. You need either an Aadhar or PAN card.</h2>
+            )}
+
+            <h3>Cards Available:</h3>
+            <ul>
+              {hasAadhar || <li> Aadhar Card: Not Available</li>}
+              {hasAadhar && <li> Aadhar Card: Available</li>}
+              {hasPan || <li> PAN Card: Not Available</li>}
+              {hasPan && <li> PAN Card: Available</li>}
+            </ul>
+          </div>
+        );
+      }
+
+      
+      const user = { aadhar: true, pan: true };
+
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<EligibilityCheck aadhar={user.aadhar} pan={user.pan} />);
+    </script>
+  </body>
+</html>
