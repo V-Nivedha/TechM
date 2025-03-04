@@ -81,11 +81,11 @@ body{
     width: 100%;
     height: 100%;
     background: url('https://img.freepik.com/free-vector/gradient-connection-background_23-2150441890.jpg');
-    opacity: 0.8; /* Adjust this value (0.1 - 1) to control transparency */
+    opacity: 0.8;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    z-index: -1; /* Keeps it behind the content */
+    z-index: -1; 
 
 }
 .head
