@@ -1,14 +1,14 @@
-// Page Load Transition
+
 document.addEventListener("DOMContentLoaded", () => {
     document.body.classList.add("fade-in");
 });
 
-// Prevent Scrolling
+
 window.addEventListener("scroll", function () {
     window.scrollTo(0, 0);
 });
 
-// Smooth Page Transitions on Navigation Click
+
 document.querySelectorAll("nav ul li a").forEach(link => {
     link.addEventListener("click", event => {
         event.preventDefault();
@@ -18,11 +18,11 @@ document.querySelectorAll("nav ul li a").forEach(link => {
         
         setTimeout(() => {
             window.location.href = target;
-        }, 500); // Delay before navigating
+        }, 500); 
     });
 });
 
-// Countdown Timer
+
 function startCountdown() {
     const eventDate = new Date("march 24, 2025 00:00:00").getTime();
 
@@ -40,7 +40,7 @@ function startCountdown() {
     }, 1000);
 }
 
-// Form Validation
+
 document.addEventListener("DOMContentLoaded", function () {
     startCountdown();
 
