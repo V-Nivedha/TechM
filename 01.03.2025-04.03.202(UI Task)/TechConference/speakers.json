@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Dr. Sarah Thompson",
+        "image": "images/preeti.jpg",
+        "title": "AI Researcher",
+        "topic": "The Future of AI and Ethics"
+    },
+    {
+        "name": "Dasaraj Centhimul Tarun",
+        "image": "https://pi.tedcdn.com/r/s3.amazonaws.com/ted.conferences.profiles/00/00/1d/d1/01/1954049.jpeg?",
+        "title": "Cybersecurity Expert",
+        "topic": "Securing the Digital Age"
+    },
+    {
+        "name": "Rachell Thomas",
+        "image": "https://s3-media0.fl.yelpcdn.com/bphoto/8gz6UDq8sYVMzHMOO8WxSQ/348s.jpg",
+        "title": "Blockchain Developer",
+        "topic": "The Evolution of Web3"
+    },
+    {
+        "name": "Michael Lee",
+        "image": "https://kashmirobserver.net/wp-content/uploads/2021/02/Athar-Amir-Ul-Shafi.jpg.webp",
+        "title": "Cloud Architect",
+        "topic": "Building Scalable Cloud Apps"
+    }
+]

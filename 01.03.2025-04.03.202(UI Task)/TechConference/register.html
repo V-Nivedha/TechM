@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - InnovateX 2025</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="registration-section">
+        <div class="form-box">
+            <h1 class="form-title">Register for InnovateX 2025</h1>
+            <form id="eventForm">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" class="input-field" required>
+
+                <label for="emailAddress">Email Address:</label>
+                <input type="email" id="emailAddress" name="emailAddress" class="input-field" required>
+
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" class="input-field" required>
+
+             
+
+                <label for="ticketType">Ticket Type:</label>
+                <select id="ticketType" name="ticketType" class="input-field" required>
+                    <option value="general">General Admission</option>
+                    <option value="vip">VIP Pass</option>
+                    <option value="student">Student Pass</option>
+                </select>
+
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 InnovateX. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

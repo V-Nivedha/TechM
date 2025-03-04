@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule - InnovateX 2025</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="schedule">
+        <h2>Schedule</h2>
+        <p>Stay tuned for an exciting lineup of tech talks and workshops.</p>
+
+        <!-- Track Filter Dropdown -->
+        <label for="track-filter">Filter by Track:</label>
+        <select id="track-filter">
+            <option value="all">All Tracks</option>
+            <option value="AI">Artificial Intelligence</option>
+            <option value="Cybersecurity">Cybersecurity</option>
+            <option value="Blockchain">Blockchain</option>
+            <option value="Cloud">Cloud Computing</option>
+        </select>
+
+        <!-- Dynamic Schedule List -->
+        <div id="schedule-list" class="schedule-container">
+            <p>Loading schedule...</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 InnovateX. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

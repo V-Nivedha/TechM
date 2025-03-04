@@ -1,0 +1,172 @@
+nav {
+    background: rgba(10, 25, 47, 0.9);
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #00b4d8;
+}
+.div1{
+    background-color:white;
+    display: inline-block;
+    width:24%;
+    height: 350px;
+    margin-top:10%;
+    padding: 0px;
+     box-shadow: 2px 3px 10px rgb(138, 133, 133);
+     border-radius: 5px;
+
+}
+.div2{  
+    background: linear-gradient( #4a84dc, #517395);
+    
+    
+    display: inline-block;
+    width: 17%;
+    height: 400px;
+    margin-top: 8.5%;
+    padding: 0px;
+ 
+ border-radius: 6px;
+ box-shadow: 2px 2px 12px;
+
+   
+ 
+    
+}
+.maindiv{
+    display: flex;
+    gap: 0;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-left: 5px;
+    height: 100vh;
+    width: 100vw;
+   
+
+
+}
+body{
+    overflow: hidden;
+}
+.maindiv::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://img.freepik.com/free-vector/gradient-connection-background_23-2150441890.jpg');
+    opacity: 0.8; /* Adjust this value (0.1 - 1) to control transparency */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1; /* Keeps it behind the content */
+
+}
+.head
+{
+    text-align: left;
+     padding: 30px;
+    font-size: 25px;
+   text-shadow: 1px 1px 1px;
+}
+input{
+
+    padding: 8px;
+    width: 35%;
+    height: 25px;
+    border-top: 0cap;
+    border-left: 0cap;
+     border-color: rgb(229, 232, 235);
+    
+   
+}
+#sub{
+    padding: 7.5px;
+    width: 76%;
+    height: 25px;
+    margin-top: 7px;
+   border-top: 0cap;
+   border-left: 0cap;
+    border-color: rgb(229, 232, 235);
+}
+textarea{
+    border-top: 0cap;
+   border-left: 0cap;
+    border-color: rgb(229, 232, 235);
+    padding: 7.5px;
+}
+button{
+    display: block;
+    padding: 8px;
+    background-color: rgb(210, 220, 241);
+    border-radius: 7px;
+    width: 110px;
+    margin-left:  100px;
+    margin-top: 7px;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(7, 157, 251);
+    cursor: pointer;
+}
+header{
+    color: black;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px;
+    padding: 19px;
+    margin-top: 7px;
+   
+}
+
+img{
+    
+    border-radius: 10px;
+   vertical-align: middle;
+    float: left ; margin-right: 15px;
+    box-shadow: 2px 2px 12px;
+}
+.image{
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: smaller;
+    text-align: left;
+    text-indent: 1px;
+    color: black
+}
+
+footer {
+    text-align: center;
+    background: #0a192f;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    color: aliceblue;
+}

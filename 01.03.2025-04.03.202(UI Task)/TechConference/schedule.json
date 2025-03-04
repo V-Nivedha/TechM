@@ -1,0 +1,22 @@
+[
+    {
+        "time": "10:00 AM",
+        "session": "AI and the Future of Work",
+        "track": "AI"
+    },
+    {
+        "time": "11:30 AM",
+        "session": "Cyber Threats in 2025",
+        "track": "Cybersecurity"
+    },
+    {
+        "time": "1:00 PM",
+        "session": "Decentralized Finance Explained",
+        "track": "Blockchain"
+    },
+    {
+        "time": "2:30 PM",
+        "session": "Building Scalable Cloud Apps",
+        "track": "Cloud"
+    }
+]
