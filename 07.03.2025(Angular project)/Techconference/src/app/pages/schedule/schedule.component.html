@@ -1,0 +1,13 @@
+<section class ="schedule">
+
+<div id="schedule-container">
+    <h2>Schedule</h2>
+    <p>Stay tuned for an exciting lineup of tech talks and workshops.</p>
+    <div class="nivi">
+      <input type="text" [(ngModel)]="searchTerm" placeholder="Search by title or track" />
+
+      <app-schedulechild [scheduleList]="schedules" [searchTerm]="searchTerm"></app-schedulechild>
+      
+  </div>
+</div>
+</section>

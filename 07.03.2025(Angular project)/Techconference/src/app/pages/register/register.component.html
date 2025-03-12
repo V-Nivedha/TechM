@@ -1,0 +1,24 @@
+<div class="register">
+
+<div class="register-container">
+    <h2>Register</h2>
+    <form (ngSubmit)="registerUser()">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" [(ngModel)]="user.name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" [(ngModel)]="user.email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="mobile">Mobile No</label>
+            <input type="number" id="password" [(ngModel)]="user.password" name="password" pattern="^[0-9]{10}$" maxlength="10" required>
+        </div>
+
+        <button type="submit" class="register-btn">Register</button>
+    </form>
+</div>
+</div>

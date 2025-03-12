@@ -1,0 +1,32 @@
+{
+    "schedule":[
+      { "date": "2025-03-20", "time": "09:00 AM", "title": "Opening Keynote", "track": "General" },
+      { "date": "2025-03-20", "time": "10:00 AM", "title": "AI and the Future of Work", "track": "AI" },
+      { "date": "2025-03-20", "time": "11:30 AM", "title": "Cyber Threats in 2025", "track": "Cybersecurity" },
+      { "date": "2025-03-23", "time": "01:00 PM", "title": "Decentralized Finance Explained", "track": "Blockchain" },
+      { "date": "2025-03-23", "time": "02:30 PM", "title": "Building Scalable Cloud Apps", "track": "Cloud" },
+      { "date": "2025-03-23", "time": "04:00 PM", "title": "Machine Learning for Beginners", "track": "AI" },
+      { "date": "2025-03-25", "time": "09:30 AM", "title": "Future of Quantum Computing", "track": "Quantum" },
+      { "date": "2025-03-25", "time": "12:00 PM", "title": "Closing Ceremony & Networking", "track": "General" }
+    ],
+    "speakers":[
+      {
+        "name": "John Doe",
+        "topic": "AI in 2025",
+        "image": "john_doe.jpg"
+      },
+      {
+        "name": "Rachell Thomas",
+        "topic": "Blockchain Security",
+        "image": "Rachell.jpg"
+      },
+      {
+        "name": "Robert Brown",
+        "topic": "Future of Quantum Computing",
+        "image": "robertbrown.jpg"
+      }
+    ]
+    
+    
+      
+}

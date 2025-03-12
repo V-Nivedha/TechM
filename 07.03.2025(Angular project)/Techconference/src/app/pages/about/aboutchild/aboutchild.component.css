@@ -1,0 +1,26 @@
+.about-box {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 700px;
+    text-align: left;
+  margin-top: 5%;
+  margin-left: 25%;
+   font-size: large;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  h2, h3 {
+    color: #00bcd4;
+  }
+  #about{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://img.freepik.com/free-vector/gradient-connection-background_23-2150441890.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+height: 90vh;  
+margin-top: 10px;
+
+overflow: auto;
+}

@@ -1,0 +1,10 @@
+
+<div class="speaker"><div class="speaker-container">
+    <div *ngFor="let speaker of speakerList" class="speaker-item">
+        <img src="http://localhost:8090/{{speaker.image}}" class="img-fluid rounded-start" alt="{{ speaker.name }}">
+      <div class="speaker-info">
+        <strong>{{ speaker.name }}</strong> - {{ speaker.topic }}
+      </div>
+    </div>
+  </div>
+  </div>

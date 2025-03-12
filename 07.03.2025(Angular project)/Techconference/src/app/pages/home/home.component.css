@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a192f;
+    color: white;
+    text-align: center;
+  }
+  
+  .navbar {
+    background: #001f3f;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .hero-section {
+    margin-top: 10px;
+    padding: 50px;
+    width:100%;
+    height: 75vh;
+    background: url('https://img.freepik.com/free-vector/gradient-particle-wave-background_52683-118173.jpg?t=st=1741342001~exp=1741345601~hmac=a71634f0070d8d4e9dbdeffec572bc6be284a282b5fc53b68785b23fc00db917&w=1380') no-repeat center center/cover;
+background-position: cover;
+overflow: auto;
+}
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  .register-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  footer {
+    margin-top: 30px;
+    background: #001f3f;
+    padding: 10px;
+  }
+  

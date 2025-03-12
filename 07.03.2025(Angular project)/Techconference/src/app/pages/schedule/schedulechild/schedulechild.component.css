@@ -1,0 +1,20 @@
+.schedule-list {
+    background: linear-gradient( #0a192f, #5d9bd8);
+    padding: 20px;
+    border-radius: 10px;
+    
+  margin-top:5%;
+
+  margin-left: 5%;
+  }
+  
+ 
+  .schedule-item {
+
+
+    align-items: center;
+    padding: 12px;
+   
+  }
+  
+

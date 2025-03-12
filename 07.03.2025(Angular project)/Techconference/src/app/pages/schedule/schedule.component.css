@@ -1,0 +1,25 @@
+#schedule-container{
+    
+    width: 1000px;
+    height: 250px;
+    padding: 30px;
+font-size: large;
+margin-left: 13%;
+color: azure;
+
+text-align: center;
+}
+.schedule{
+    background: linear-gradient( #0a192f, #328de8);
+    margin-top:15px;
+    height: 88vh;
+}
+.nivi{
+    margin-top:0;
+}
+input
+{
+    width: 400px;
+
+    height: 30px;
+}

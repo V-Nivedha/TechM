@@ -1,0 +1,10 @@
+<div class="nivi">
+ 
+    <div class="schedule-list">
+      <div *ngFor="let schedule of scheduleList | scheduleFilter: searchTerm" class="schedule-item">
+     
+          <strong>{{ schedule.date|date: 'dd, MMMM yyyy'  }} - {{ schedule.time  }}</strong> - {{ schedule.title }} ()
+        </div>
+      </div>
+    </div>
+   

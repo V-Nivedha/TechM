@@ -1,0 +1,60 @@
+/* Ensure the full page background */
+.speaker {
+    width: 100%;
+    min-height: 89vh; /* Full viewport height */
+    display: flex;
+
+   
+    background: linear-gradient(to bottom, #001f3f, #4a90e2);
+
+    margin-top: 10px;
+  }
+  
+  /* Arrange speakers properly */
+  .speaker-container {
+    display: flex;
+    flex-wrap: wrap;
+  height: 50%;
+    gap: 20px;
+    max-width: 90%;
+ padding: 100px;
+margin-top:15px;
+margin-left: 15%;
+   
+  }
+
+  
+  /* Each speaker item styling */
+  .speaker-item {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    display: flex;
+  
+    flex-direction: column;
+ 
+  }
+  
+  /* Responsive images */
+  .speaker-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+   
+    object-fit: cover;
+  }
+  
+  /* Ensure proper text positioning */
+  .speaker-info {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
